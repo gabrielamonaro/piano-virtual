@@ -1,0 +1,26 @@
+header{
+    background: rgb(34, 61, 60);
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    box-shadow: none;
+}
+
+.botao-menu{
+    border-radius: 28px;
+    background: #EFEAD8;
+    border-color: #EFEAD8;
+    padding: 10% 100% 10% 20%; 
+    color: rgb(34, 61, 60);
+    font-size: 17px;
+    box-shadow: #EFEAD8;
+}
+
+.botao-menu:before{
+    content: "★"
+}
+
+
