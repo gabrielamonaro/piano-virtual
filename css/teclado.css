@@ -1,0 +1,41 @@
+
+.teclado{
+    background: url('../image/teclado.png');
+    background-repeat: no-repeat;
+    margin: 5% auto 0 ;
+    background-size: contain;
+    width: 1300px;
+    height:450px;
+}
+
+.teclas-naturais{
+    display: flex;
+}
+
+.tecla{
+    width: 150px;
+    height: 255px;
+    top: 200%;
+    color: white;
+    font-size: 25px;
+    box-shadow: none;
+    background: none;
+    border: none;
+}
+
+.tecla:hover{
+    box-shadow: 0.1em 0.1em 0.5em #333;
+    color: black;
+}
+
+.tecla:active{
+    box-shadow: 0.1em 0.1em 0.5em #333;
+    background: #8fbdd393;
+}
+
+input{
+    box-shadow: none;
+    background: none;
+    border: none;
+}
+

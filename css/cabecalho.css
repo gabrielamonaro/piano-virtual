@@ -1,5 +1,5 @@
 header{
-    background: rgb(34, 61, 60);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .lista-menu{
@@ -7,20 +7,34 @@ header{
     justify-content: space-around;
     padding: 3%;
     box-shadow: none;
+    width: 50%;
 }
 
-.botao-menu{
-    border-radius: 28px;
-    background: #EFEAD8;
-    border-color: #EFEAD8;
-    padding: 10% 100% 10% 20%; 
-    color: rgb(34, 61, 60);
-    font-size: 17px;
-    box-shadow: #EFEAD8;
+.botao-menu{ 
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    box-shadow: none;
+    font-weight: bold;
 }
 
-.botao-menu:before{
-    content: "★"
+.botao-menu:hover{
+    text-decoration: underline ;
+    cursor: pointer;
+}
+
+body{
+    background: url('../image/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.teclado{
+    text-align: center;
+    margin: 0 auto;
 }
 
 
