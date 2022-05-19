@@ -14,21 +14,15 @@
 
 .tecla{
     width: 150px;
-    height: 255px;
-    top: 200%;
-    color: white;
+    height: 110px;
     font-size: 25px;
-    box-shadow: none;
-    background: none;
-    border: none;
 }
 
-.tecla:hover{
+.tecla:hover, .tecla-sustenida:hover{
     box-shadow: 0.1em 0.1em 0.5em #333;
-    color: black;
 }
 
-.tecla:active{
+.tecla:active, .tecla-sustenida:active{
     box-shadow: 0.1em 0.1em 0.5em #333;
     background: #8fbdd393;
 }
@@ -39,3 +33,32 @@ input{
     border: none;
 }
 
+.teclas-sustenidos{
+    display: flex;
+}
+
+.tecla-sustenida{
+    width: 30px;
+    height: 144px;
+    margin: 0 18px 0 28px;
+}
+
+#cs3{
+    margin: 0 0 0 45px;
+}
+
+#fs3{
+    margin: 0 0 0 72px;
+}
+
+#as3, #ds4, #as4, #ds5{
+    margin: 0 60px 0 12px;
+}
+
+#fs4{
+    margin: 0 0 0 25px;
+}
+
+#gs5{
+    margin: 0 0 0 10px;
+}
